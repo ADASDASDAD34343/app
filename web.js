@@ -10,7 +10,8 @@ const home = require("./src/routes/home")
 
 app.use("/",home); 
 app.use("/login",home); 
-app.use("/AdministratorPage",home); 
+app.use("/AdministratorPage",home);
+app.use("/w",home);  
 
 app.use(express.static(`${__dirname}/src/public`))
 module.exports= app;

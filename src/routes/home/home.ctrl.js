@@ -12,11 +12,18 @@ const AdministratorPage = (요청,응답) => {
   
   응답.render('home/AdministratorPage');
 }
+const w = (요청,응답) => {
+  
+  응답.render('home/w');
+}
+
 
 // 
 module.exports = {
   home,
   login,
   AdministratorPage,
+  w,
+
 
 };
